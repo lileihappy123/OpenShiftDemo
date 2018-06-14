@@ -11,6 +11,11 @@ public class HelloController {
         return "hello world!";
     }
 
+    @RequestMapping("/hello2")
+    public String hello2(){
+        return "hello world2!";
+    }
+
     @RequestMapping("/")
     public String index(){
         return "welcome!";
